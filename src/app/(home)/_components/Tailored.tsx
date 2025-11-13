@@ -1,5 +1,7 @@
 import { ContentLayout } from "@/components/common/common";
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 export const TailoredSection = () => {
   return (
@@ -20,10 +22,10 @@ export const TailoredSection = () => {
               requirements.
             </h2>
             <div className="mt-6 md:mt-8 lg:mt-10 flex mx-auto gap-5">
-              <button className="rounded-[32px] px-[1.5rem] py-[0.75rem] bg-gradient-to-b from-mild to-dark text-light">
-                Start For Free
-              </button>
-              <button className="rounded-[32px] px-[1.5rem] py-[0.75rem] border border-[#111111]">
+              <Link href="/pricing">
+                <Button>Start For Free</Button>
+              </Link>
+              <button className="rounded-[32px] px-[1.5rem] py-[0.75rem] border border-primary">
                 Schedule a Demo
               </button>
             </div>

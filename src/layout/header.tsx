@@ -64,7 +64,7 @@ export const Header = () => {
               </button>
             </Link>
             <Link href="https://dashboard.grownext.app/register">
-              <button className="rounded-[32px] px-[1rem] py-[0.5rem] bg-gradient-to-b from-[#555555] to-[#000000] text-white">
+              <button className="rounded-[32px] px-[1rem] py-[0.5rem] bg-gradient-to-b from-mild to-dark text-light">
                 Start For Free
               </button>
             </Link>
@@ -114,7 +114,7 @@ export const Header = () => {
               ))}
             </div>
             <Link href="https://dashboard.grownext.app/register">
-              <button className="sm:ms-auto rounded-[32px] px-[20px] py-3 m-3 bg-gradient-to-b from-secondary to-primary text-white">
+              <button className="sm:ms-auto rounded-[32px] px-[20px] py-3 m-3 bg-gradient-to-b from-secondary to-primary text-light">
                 Start For Free
               </button>
             </Link>

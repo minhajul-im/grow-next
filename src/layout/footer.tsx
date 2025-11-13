@@ -34,7 +34,7 @@ export const Footer = () => {
       <Divider />
       <div className="mt-2.5 mb-14">
         <div className="flex justify-between flex-col lg:flex-row">
-          <div className="rounded-[19px] p-5 flex gap-[22px] flex-col bg-gradient-to-b from-[#E9EBED] to-white w-full lg:w-[465px] relative">
+          <div className="rounded-[19px] p-5 flex gap-[22px] flex-col bg-gradient-to-b from-border to-light w-full lg:w-[465px] relative">
             <Image
               src="/assets/contact-database.svg"
               alt="database"
@@ -53,7 +53,7 @@ export const Footer = () => {
             </div>
             <button className="bg-gradient-to-b from-secondary to-primary gap-2.5 px-[16px] py-[8px] rounded-[32px] flex mr-auto items-center z-10">
               <Image src="/assets/playbtn.png" alt=">" width={20} height={20} />
-              <div className="font-medium text-white">Watch Video</div>
+              <div className="font-medium text-light">Watch Video</div>
             </button>
           </div>
           <div className="flex justify-between flex-col lg:flex-row gap-x-0 gap-y-4 lg:gap-[69px] mt-5 mx-5 lg:mx-0">
