@@ -6,8 +6,9 @@ import { AiOutlineDownload } from "react-icons/ai";
 import { AiFillWindows } from "react-icons/ai";
 import React from "react";
 import Image from "next/image";
+import { ContentLayout } from "@/components/common/common";
 
-export const Support = () => {
+export const SupportSection = () => {
   return (
     <div
       style={{
@@ -15,11 +16,11 @@ export const Support = () => {
           "linear-gradient(182.2deg, #FFFFFF 1.9%, #F4F4F4 16.34%, #F4F4F4 50.05%, #F4F4F4 83.75%, #FFFFFF 98.2%)",
       }}
       className="z-50">
-      <div className="w-[95%] xl:w-[1100px] 2xl:w-[1170px] mx-auto relative">
-        <div className="mt-[90px] py-[30px] flex px-8 lg:px-0 items-center flex-col lg:flex-row lg:mt-[60px]">
+      <ContentLayout>
+        <div className="flex items-center flex-col lg:flex-row">
           <div className="flex-1">
             <div className="relative w-fit">
-              <div className="absolute -z-20 lg:-top-24 lg:-left-[60px] px-5 -top-12 -left-10">
+              <div className="absolute -z-20 lg:-top-24 left-0 -top-12">
                 <Image
                   src="/assets/supportcomdecoleft.svg"
                   alt="deco"
@@ -40,7 +41,7 @@ export const Support = () => {
                 </div>
                 <div className="absolute lg:top-[65px] top-[55px] left-[50%] -translate-x-[50%] z-50 w-[60%] px-2">
                   <button
-                    className="rounded-[10px] border border-black lg:py-1.5 py-0.5 px-3 flex justify-between items-center cursor-pointer w-full"
+                    className="rounded-[10px] border border-dark lg:py-1.5 py-0.5 px-3 flex justify-between items-center cursor-pointer w-full"
                     onClick={() => alert("Windows Version Download")}>
                     <div className="flex items-center gap-4">
                       <AiFillWindows size={34} className="hidden lg:block" />
@@ -51,7 +52,7 @@ export const Support = () => {
                     <AiOutlineDownload size={18} className="block lg:hidden" />
                   </button>
                   <button
-                    className="rounded-[10px] lg:mt-4 mt-2 border border-black lg:py-1.5 py-0.5 px-3 flex justify-between items-center cursor-pointer w-full"
+                    className="rounded-[10px] lg:mt-4 mt-2 border border-dark lg:py-1.5 py-0.5 px-3 flex justify-between items-center cursor-pointer w-full"
                     onClick={() => alert("MacOS Version Download")}>
                     <div className="flex items-center gap-[14px]">
                       <AiFillApple size={36} className="hidden lg:block" />
@@ -62,7 +63,7 @@ export const Support = () => {
                     <AiOutlineDownload size={18} className="block lg:hidden" />
                   </button>
                   <button
-                    className="rounded-[10px] lg:mt-4 mt-2 border border-black lg:py-1.5 py-0.5 px-3 flex justify-between items-center cursor-pointer w-full"
+                    className="rounded-[10px] lg:mt-4 mt-2 border border-dark lg:py-1.5 py-0.5 px-3 flex justify-between items-center cursor-pointer w-full"
                     onClick={() => alert("Linux Version Download")}>
                     <div className="flex items-center gap-4">
                       <DiLinux size={34} className="hidden lg:block" />
@@ -87,10 +88,10 @@ export const Support = () => {
           </div>
           <div className="flex-1 pt-24 lg:pt-6 flex flex-col gap-[50px]">
             <div>
-              <h1 className="text-center lg:text-start px-0 text-[36px] md:text-[40px] lg:text-[40px] leading-[120%] font-extrabold from-[#555555] to-black bg-gradient-to-b bg-clip-text text-transparent">
+              <h1 className="text-center lg:text-start px-0 text-[36px] md:text-[40px] lg:text-[40px] leading-[120%] font-extrabold from-mild to-dark bg-gradient-to-b bg-clip-text text-transparent">
                 Accessible Anytime, Anywhere
               </h1>
-              <h2 className="text-center lg:text-start px-0 mt-4 lg:mt-6 text-[20px] leading-[27px] text-[#666666] max-w-[1070px] mx-auto">
+              <h2 className="text-center lg:text-start px-0 mt-4 lg:mt-6 text-[20px] leading-[27px] text-secondary max-w-[1070px] mx-auto">
                 Effortless Access and Management Across All Platforms – Desktop
                 Apps for Windows, macOS, and Linux, Plus Mobile Apps for Android
                 and iOS.
@@ -114,7 +115,7 @@ export const Support = () => {
             </div>
           </div>
         </div>
-      </div>
+      </ContentLayout>
     </div>
   );
 };

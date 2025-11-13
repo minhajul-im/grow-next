@@ -5,6 +5,7 @@ import { FeaturesSection } from "./_components/Features";
 import { AdvantageSection } from "./_components/Advantage";
 import { LevelUpSection } from "./_components/LevelUp";
 import { PlanSection } from "./_components/Plan";
+import { SupportSection } from "./_components/Support";
 
 export default function HomePage() {
   return (
@@ -15,6 +16,7 @@ export default function HomePage() {
         <AdvantageSection />
         <LevelUpSection />
         <PlanSection />
+        <SupportSection />
       </section>
     </BaseLayout>
   );
