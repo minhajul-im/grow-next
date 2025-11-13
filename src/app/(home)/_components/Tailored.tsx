@@ -3,12 +3,7 @@ import Image from "next/image";
 
 export const TailoredSection = () => {
   return (
-    <div
-      style={{
-        background:
-          "linear-gradient(182.2deg, #FFFFFF 1.9%, #F4F4F4 16.34%, #F4F4F4 50.05%, #F4F4F4 83.75%, #FFFFFF 98.2%)",
-      }}
-      className="-z-50">
+    <section className="bg-custom-gradient -z-50">
       <ContentLayout>
         <div className="flex justify-center flex-col gap-[35px] pt-8">
           <div className="flex justify-center flex-col">
@@ -44,6 +39,6 @@ export const TailoredSection = () => {
           </div>
         </div>
       </ContentLayout>
-    </div>
+    </section>
   );
 };

@@ -35,6 +35,16 @@
   .full-center {
     @apply flex justify-center items-center;
   }
+  /** Custom Gradient */
+  .bg-custom-gradient {
+    background: linear-gradient(
+      182deg,
+      #ffffff 2%,
+      #f4f4f4 16%,
+      #f4f4f4 84%,
+      #ffffff 98%
+    );
+  }
 }
 
 /* @media (prefers-color-scheme: dark) {

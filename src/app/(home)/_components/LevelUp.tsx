@@ -3,12 +3,7 @@ import Image from "next/image";
 
 export const LevelUpSection = () => {
   return (
-    <div
-      className="py-8"
-      style={{
-        background:
-          "linear-gradient(182.2deg, #FFFFFF 1.9%, #F4F4F4 16.34%, #F4F4F4 50.05%, #F4F4F4 83.75%, #FFFFFF 98.2%)",
-      }}>
+    <section className="bg-custom-gradient">
       <div className="flex flex-col">
         <h1 className="text-center text-[40px] md:text-[42px] lg:text-[48px] leading-[104%] font-extrabold from-mild to-dark bg-gradient-to-b bg-clip-text text-transparent">
           Level up your&nbsp;
@@ -81,6 +76,6 @@ export const LevelUpSection = () => {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };

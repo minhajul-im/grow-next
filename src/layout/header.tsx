@@ -26,7 +26,7 @@ export const Header = () => {
   ];
 
   return (
-    <header style={{ zIndex: 9999 }} className="fixed w-full top-[15px]">
+    <header className="fixed w-full top-[15px] z-[9999]">
       <ContentLayout className="bg-light shadow rounded-[25px] md:rounded-[60px] py-1 border">
         <div className="nav-center mx-3">
           <div className="flex gap-10">

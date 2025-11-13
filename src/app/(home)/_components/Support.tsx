@@ -10,12 +10,7 @@ import { ContentLayout } from "@/components/common/common";
 
 export const SupportSection = () => {
   return (
-    <div
-      style={{
-        background:
-          "linear-gradient(182.2deg, #FFFFFF 1.9%, #F4F4F4 16.34%, #F4F4F4 50.05%, #F4F4F4 83.75%, #FFFFFF 98.2%)",
-      }}
-      className="z-50">
+    <section className="bg-custom-gradient z-50">
       <ContentLayout>
         <div className="flex items-center flex-col lg:flex-row">
           <div className="flex-1">
@@ -116,6 +111,6 @@ export const SupportSection = () => {
           </div>
         </div>
       </ContentLayout>
-    </div>
+    </section>
   );
 };
