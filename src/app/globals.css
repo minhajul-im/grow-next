@@ -10,8 +10,10 @@
   --foreground: #171717;
   --primary-color: #111111;
   --primary-foreground: #ffffff;
+  --light-color: #ffffff;
   --secondary-color: #666666;
   --mild-color: #555555;
+  --mild-dark: #797979;
   --dark-color: #000000;
   --dark-foreground: #0d0c0a;
   --social-color: #ebeced;

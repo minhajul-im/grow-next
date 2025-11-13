@@ -9,10 +9,12 @@ const config: Config = {
         "primary-foreground": "var(--primary-foreground)",
         mild: "var(--mild-color)",
         border: "var(--border-color)",
+        "mild-dark": "var(--mild-dark)",
         secondary: "var(--secondary-color)",
         paragraph: "var(--paragraph-color)",
         social: "var(--social-color)",
         dark: "var(--dark-color)",
+        light: "var(--light-color)",
         "dark-foreground": "var(--dark-foreground)",
       },
       borderRadius: {
