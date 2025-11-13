@@ -10,12 +10,13 @@
   --foreground: #171717;
   --primary-color: #111111;
   --light-color: #ffffff;
+  --light-dark: #ebeced;
   --secondary-color: #666666;
   --mild-color: #555555;
   --mild-dark: #797979;
+  --secondary-dark: #374550;
   --dark-color: #000000;
   --dark-foreground: #0d0c0a;
-  --social-color: #ebeced;
   --font-family: "Lato", "Helvetica", sans-serif;
   --paragraph-color: #1a1a1a;
   --border-radius: 8px;

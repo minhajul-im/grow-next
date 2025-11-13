@@ -21,7 +21,7 @@ export const AdvantageSection = () => {
           </h2>
         </div>
         <div className="mt-[50px] gap-[50px] grid lg:grid-cols-2 grid-cols-1">
-          <div className="bg-gradient-to-b from-social to-light rounded-[20px] p-[30px] flex flex-col">
+          <div className="bg-gradient-to-b from-light-dark to-light rounded-[20px] p-[30px] flex flex-col">
             <h3 className="text-[30px] leading-[36px] font-bold from-mild to-dark bg-gradient-to-b bg-clip-text text-transparent">
               Without GrowNext ERP
             </h3>

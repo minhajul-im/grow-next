@@ -64,7 +64,7 @@ export const Footer = () => {
             <div className="flex flex-row lg:flex-col gap-2.5">
               <a
                 href=""
-                className="rounded-default bg-social w-[30px] h-[30px] full-center">
+                className="rounded-default bg-light-dark w-[30px] h-[30px] full-center">
                 <Image
                   src="/assets/linkedin.png"
                   alt="Li"
@@ -74,12 +74,12 @@ export const Footer = () => {
               </a>
               <a
                 href=""
-                className="rounded-default bg-social w-[30px] h-[30px] full-center">
+                className="rounded-default bg-light-dark w-[30px] h-[30px] full-center">
                 <Image src="/assets/X.png" alt="Li" width={15} height={15} />
               </a>
               <a
                 href=""
-                className="rounded-default bg-social w-[30px] h-[30px] full-center">
+                className="rounded-default bg-light-dark w-[30px] h-[30px] full-center">
                 <Image
                   src="/assets/facebook.png"
                   alt="Li"
@@ -89,7 +89,7 @@ export const Footer = () => {
               </a>
               <a
                 href=""
-                className="rounded-default bg-social w-[30px] h-[30px] full-center">
+                className="rounded-default bg-light-dark w-[30px] h-[30px] full-center">
                 <Image
                   src="/assets/instagram.png"
                   alt="Li"
@@ -99,7 +99,7 @@ export const Footer = () => {
               </a>
               <a
                 href=""
-                className="rounded-default bg-social w-[30px] h-[30px] full-center">
+                className="rounded-default bg-light-dark w-[30px] h-[30px] full-center">
                 <Image
                   src="/assets/youtube.png"
                   alt="Li"

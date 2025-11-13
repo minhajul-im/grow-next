@@ -10,10 +10,11 @@ const config: Config = {
         border: "var(--border-color)",
         "mild-dark": "var(--mild-dark)",
         secondary: "var(--secondary-color)",
+        "secondary-dark": "var(--secondary-dark)",
         paragraph: "var(--paragraph-color)",
-        social: "var(--social-color)",
         dark: "var(--dark-color)",
         light: "var(--light-color)",
+        "light-dark": "var(--light-dark)",
         "dark-foreground": "var(--dark-foreground)",
       },
       borderRadius: {
