@@ -5,6 +5,7 @@ import { Copyright } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
 
 export const Footer = () => {
   const menus1 = [
@@ -29,12 +30,36 @@ export const Footer = () => {
     { name: "Site Map", path: "/site-map" },
   ];
 
+  const [showButton, setShowButton] = useState(false);
+
+  const handleScroll = () => {
+    if (window.scrollY > 200) {
+      setShowButton(true);
+    } else {
+      setShowButton(false);
+    }
+  };
+
+  const handleScrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <ContentLayout>
-      <Divider />
-      <div className="my-[3rem]">
+    <ContentLayout className="relative">
+      {/* <Divider /> */}
+      <div className="pb-[4.5rem]">
         <div className="flex justify-between flex-col lg:flex-row">
-          <div className="rounded-default p-5 flex gap-[22px] flex-col bg-gradient-to-b from-border to-light w-full lg:w-[465px] relative">
+          <div className="rounded-default p-5 flex gap-[1.5rem] flex-col bg-gradient-to-b from-border to-light w-full lg:w-[465px] relative">
             <Image
               src="/assets/contact-database.svg"
               alt="database"
@@ -160,12 +185,20 @@ export const Footer = () => {
             </button>
           </div>
 
-          <div className="text-[16px] md:text-[18px] lg:text-[20px] leading-[35px] text-secondary flex items-center gap-1">
+          <div className="text-[16px] md:text-[18px] lg:text-[20px] leading-[35px] text-secondary-dark flex items-center gap-1">
             <Copyright size={22} /> {new Date().getFullYear()} GrowNext. Manage
             cookies Legal Privacy
           </div>
         </div>
       </div>
+
+      {showButton && (
+        <button
+          onClick={handleScrollToTop}
+          className="absolute bottom-16 w-[50px] h-[50px] -right-10 translate-x-[100%] bg-gradient-to-b from-mild to-dark shadow-[0px_10px_25px_-3px_#00000026] rounded-full flex justify-center items-end">
+          <Image src="/assets/uparrow.png" alt="↑" width={20} height={35} />
+        </button>
+      )}
     </ContentLayout>
   );
 };
@@ -202,7 +235,7 @@ const Section = ({
 const Divider = () => {
   return (
     <div className="flex items-center my-[3rem]">
-      <div className="h-[1px] w-full flex-1 bg-gradient-to-l from-dark to-light"></div>
+      <div className="h-[1px] w-full flex-1 bg-gradient-to-l from-dark to-light" />
       <div className="flex gap-[13px] items-center">
         <div className="w-2.5 h-2.5 rounded-full bg-dot-gradient" />
         {/* <div className="flex gap-[5px]">
@@ -224,7 +257,7 @@ const Divider = () => {
         </div> */}
         <div className="w-2.5 h-2.5 rounded-full bg-dot-gradient" />
       </div>
-      <div className="h-[1px] w-full flex-1 bg-gradient-to-r from-dark to-light"></div>
+      <div className="h-[1px] w-full flex-1 bg-gradient-to-r from-dark to-light" />
     </div>
   );
 };

@@ -12,7 +12,7 @@ export const SupportSection = () => {
   return (
     <section className="bg-custom-gradient z-50">
       <ContentLayout>
-        <div className="flex items-center flex-col lg:flex-row">
+        <div className="flex items-center flex-col lg:flex-row pt-[4.5rem]">
           <div className="flex-1">
             <div className="relative w-fit">
               <div className="absolute -z-20 lg:-top-24 left-0 -top-12">
@@ -81,12 +81,12 @@ export const SupportSection = () => {
               </div>
             </div>
           </div>
-          <div className="flex-1 pt-24 lg:pt-6 flex flex-col gap-[50px]">
+          <div className="flex-1 flex flex-col gap-[3rem]">
             <div>
               <h1 className="text-center lg:text-start px-0 text-[36px] md:text-[40px] lg:text-[40px] leading-[120%] font-extrabold from-mild to-dark bg-gradient-to-b bg-clip-text text-transparent">
                 Accessible Anytime, Anywhere
               </h1>
-              <h2 className="text-center lg:text-start px-0 mt-4 lg:mt-6 text-[20px] leading-[27px] text-secondary max-w-[1070px] mx-auto">
+              <h2 className="text-center lg:text-start px-0 mt-[1rem] text-[20px] leading-[27px] text-secondary max-w-[1070px] mx-auto">
                 Effortless Access and Management Across All Platforms – Desktop
                 Apps for Windows, macOS, and Linux, Plus Mobile Apps for Android
                 and iOS.
@@ -98,14 +98,16 @@ export const SupportSection = () => {
                   src="/assets/supportandroid.svg"
                   alt="android"
                   width={194}
-                  height={310}></Image>
+                  height={310}
+                />
               </div>
               <div>
                 <Image
                   src="/assets/supportios.svg"
                   alt="android"
                   width={194}
-                  height={262}></Image>
+                  height={262}
+                />
               </div>
             </div>
           </div>

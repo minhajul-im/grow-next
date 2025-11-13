@@ -28,15 +28,18 @@ export const Header = () => {
 
   return (
     <header className="fixed w-full top-[15px] z-[9999]">
-      <ContentLayout className="bg-light shadow rounded-default py-1 border">
-        <div className="nav-center mx-3">
+      <ContentLayout
+        childClass="py-2"
+        className="rounded-default shadow-lg bg-header">
+        <div className="nav-center">
           <div className="flex gap-10">
             <Link href="/">
               <Image
-                src="/assets/logo.png"
+                src="/grownext-logo.svg"
                 alt="GrowNext"
-                width={126.5}
-                height={50}
+                width={175}
+                height={75}
+                className="object-contain"
               />
             </Link>
             <div className="hidden xl:flex items-center gap-5">
@@ -60,7 +63,7 @@ export const Header = () => {
             </Link>
             <Link href="https://dashboard.grownext.app/login">
               <button className="flex gap-2 items-center">
-                <UserRound width={16} height={18} />
+                <UserRound width={18} height={20} />
                 Login
               </button>
             </Link>

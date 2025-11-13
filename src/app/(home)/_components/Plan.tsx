@@ -12,13 +12,13 @@ export const PlanSection = () => {
         </span>
         and Save Money
       </h1>
-      <h2 className="text-center mt-4 text-[20px] leading-[27px] text-secondary max-w-[1070px] mx-auto">
+      <h2 className="text-center mt-[1rem] text-[20px] leading-[27px] text-secondary max-w-[1070px] mx-auto">
         Lorem ipsum dolor sit amet consectetur. Rhoncus porttitor velit bibendum
         rutrum pharetra semper. Cursus nunc ultrices nulla dapibus purus semper
         penatibus sit quis. Morbi amet gravida scelerisque proin amet morbi.
       </h2>
 
-      <div className="mt-[50px] flex gap-4 sm:gap-10 flex-col lg:flex-row px-0">
+      <div className="pt-[3rem] flex gap-4 sm:gap-10 flex-col lg:flex-row px-0">
         <div className="flex-1 rounded-default p-5 flex flex-col bg-gradient-to-b from-border to-light">
           <h3 className="text-[30px] font-bold leading-[120%]">
             Others Tools Price
@@ -148,8 +148,8 @@ export const PlanSection = () => {
           <div className="rounded-full p-4 text-[24px] sm:text-[30px] font-bold leading-[36px] shadow-lg m-auto bg-light">
             VS
           </div>
-          <div className="absolute w-0.5 h-full left-[50%] translate-x-[50%] -z-50 line-gradient" />
-          <div className="absolute h-0.5 w-full top-[50%] translate-y-[50%] -z-50 line-gradient" />
+          <div className="absolute w-0.5 h-full left-[50%] translate-x-[50%] -z-50 radial-cross" />
+          <div className="absolute h-0.5 w-full top-[50%] translate-y-[50%] -z-50 radial-cross" />
         </div>
         <div className="flex-1 rounded-default p-5 flex flex-col mb-auto line-gradient">
           <h3 className="text-[30px] font-bold leading-[120%] text-light">

@@ -4,7 +4,7 @@ import Image from "next/image";
 export const AdvantageSection = () => {
   return (
     <ContentLayout>
-      <div className="px-[20px] lg:px-[60px] py-[30px] mt-8 lg:mt-[70px] shadow-[0px_10px_25px_-3px_#00000026] rounded-default">
+      <div className="p-[4.5rem] shadow-[0px_10px_25px_-3px_#00000026] rounded-default">
         <div className="text-center">
           <h1 className="text-[40px] md:text-[42px] lg:text-[48px] leading-[104%] font-extrabold from-mild to-dark bg-gradient-to-b bg-clip-text text-transparent">
             Why Choose &nbsp;
@@ -13,14 +13,14 @@ export const AdvantageSection = () => {
             </span>
             ERP?
           </h1>
-          <h2 className="text-center mt-4 text-[20px] leading-[27px] text-secondary">
+          <h2 className="text-center mt-[1rem] text-[20px] leading-[27px] text-secondary">
             Lorem ipsum dolor sit amet consectetur. Rhoncus porttitor velit
             bibendum rutrum pharetra semper. Cursus nunc ultrices nulla dapibus
             purus semper penatibus sit quis. Morbi amet gravida scelerisque
             proin amet morbi.
           </h2>
         </div>
-        <div className="mt-[50px] gap-[50px] grid lg:grid-cols-2 grid-cols-1">
+        <div className="mt-[3rem] gap-[3rem] grid lg:grid-cols-2 grid-cols-1">
           <div className="bg-gradient-to-b from-light-dark to-light rounded-default p-[30px] flex flex-col">
             <h3 className="text-[30px] leading-[36px] font-bold from-mild to-dark bg-gradient-to-b bg-clip-text text-transparent">
               Without GrowNext ERP
@@ -30,7 +30,6 @@ export const AdvantageSection = () => {
                 Data scattered throughout multiple tools and spreadsheets
               </CrossTitle>
               <CrossTitle>
-                {" "}
                 No idea who&apos;s scheduled on which project and when
               </CrossTitle>
               <CrossTitle>
@@ -90,12 +89,11 @@ const CrossTitle = ({ children }: { children: React.ReactNode }) => {
         <Image
           src="/assets/notsupport.svg"
           alt="#"
-          width={36}
-          height={36}
+          fill
           className="absolute w-full h-full object-cover"
         />
       </div>
-      <h4 className="leading-[120%]">{children}</h4>
+      <h4 className="leading-[120%] flex-1">{children}</h4>
     </div>
   );
 };

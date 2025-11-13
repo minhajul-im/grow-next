@@ -3,14 +3,19 @@ import React from "react";
 interface ContentLayoutProps {
   children: React.ReactNode;
   className?: string;
+  childClass?: string;
 }
-export const ContentLayout = ({ children, className }: ContentLayoutProps) => {
+export const ContentLayout = ({
+  children,
+  className,
+  childClass,
+}: ContentLayoutProps) => {
   return (
-    <div
+    <article
       className={`w-[95%] xl:w-[1100px] 2xl:w-[1195px] mx-auto ${
         className ?? ""
       }`}>
-      {children}
-    </div>
+      <section className={`mx-2 ${childClass ?? ""}`}>{children}</section>
+    </article>
   );
 };

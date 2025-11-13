@@ -4,12 +4,13 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { ContentLayout } from "@/components/common/common";
 import { FeatureDropdown } from "./Dropdown";
+import { Button } from "@/components/ui/button";
 
 export const FeaturesSection = () => {
   const [activeMenu, setActiveMenu] = useState(1);
 
   return (
-    <section className="bg-custom-gradient">
+    <section className="bg-custom-gradient pt-[4.5rem]">
       <ContentLayout>
         <div className="flex flex-col relative">
           <h1 className="text-center text-[40px] md:text-[42px] lg:text-[48px] leading-[104%] font-extrabold from-secondary to-primary bg-gradient-to-b bg-clip-text text-transparent">
@@ -18,13 +19,13 @@ export const FeaturesSection = () => {
             </span>
             Your ultimate workspace
           </h1>
-          <h2 className="px-[10px] md:px-6 lg:px-[50px] text-center mt-4 text-[20px] leading-[120%] text-secondary">
+          <h2 className="px-[10px] md:px-6 lg:px-[50px] text-center mt-[1rem] text-[20px] leading-[120%] text-secondary">
             Lorem ipsum dolor sit amet consectetur. Rhoncus porttitor velit
             bibendum rutrum pharetra semper. Cursus nunc ultrices nulla dapibus
             purus semper penatibus sit quis. Morbi amet gravida scelerisque
             proin amet morbi.
           </h2>
-          <div className="flex mt-[70px] lg:items-end lg:flex-row flex-col gap-y-4 items-center">
+          <div className="flex mt-[3rem] lg:items-end lg:flex-row flex-col gap-y-4 items-center">
             <div className="order-1">
               <FeatureDropdown submenu={activeMenu} onChange={setActiveMenu} />
             </div>
@@ -36,31 +37,11 @@ export const FeaturesSection = () => {
                 height={940}
                 className="max-w-[676px] w-full mx-auto z-10"
               />
-              {activeMenu == 1 && (
-                <div className="text-[30px] font-bold absolute z-20 top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]">
-                  Collaboration
-                </div>
-              )}
-              {activeMenu == 2 && (
-                <div className="text-[30px] font-bold absolute z-20 top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]">
-                  Task & Projects
-                </div>
-              )}
-              {activeMenu == 3 && (
-                <div className="text-[30px] font-bold absolute z-20 top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]">
-                  Sites & Stores
-                </div>
-              )}
-              {activeMenu == 4 && (
-                <div className="text-[30px] font-bold absolute z-20 top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]">
-                  HR & Automation
-                </div>
-              )}
-              {activeMenu == 5 && (
-                <div className="text-[30px] font-bold absolute z-20 top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]">
-                  CMS
-                </div>
-              )}
+              {activeMenu == 1 && <LaptopTitle>Collaboration</LaptopTitle>}
+              {activeMenu == 2 && <LaptopTitle>Task & Projects</LaptopTitle>}
+              {activeMenu == 3 && <LaptopTitle>Sites & Stores</LaptopTitle>}
+              {activeMenu == 4 && <LaptopTitle>HR & Automation</LaptopTitle>}
+              {activeMenu == 5 && <LaptopTitle>CMS</LaptopTitle>}
               <Image
                 src="/assets/blue_polygon.png"
                 alt="#"
@@ -71,9 +52,8 @@ export const FeaturesSection = () => {
             </div>
           </div>
           <div className="relative flex">
-            <button className="mt-6 lg:mt-[66px] mx-auto rounded-[32px] bg-gradient-to-b from-secondary to-primary text-light py-[0.5rem] px-[1rem]">
-              Explore All Features
-            </button>
+            <Button size="explore">Explore All Features</Button>
+
             <div className="absolute -bottom-3 left-[48.5%] lg:-translate-x-[170%] md:-translate-x-[180%] -translate-x-[180%]">
               <Image
                 src="/assets/feature_arrow.png"
@@ -87,5 +67,13 @@ export const FeaturesSection = () => {
         </div>
       </ContentLayout>
     </section>
+  );
+};
+
+const LaptopTitle = ({ children }: { children: string }) => {
+  return (
+    <div className="text-[30px] font-bold absolute z-20 top-[45%] left-[50%] -translate-x-[50%] -translate-y-[50%]">
+      {children}
+    </div>
   );
 };

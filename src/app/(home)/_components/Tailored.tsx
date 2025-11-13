@@ -7,7 +7,7 @@ export const TailoredSection = () => {
   return (
     <section className="bg-custom-gradient">
       <ContentLayout>
-        <div className="flex justify-center flex-col gap-[35px] pt-8">
+        <div className="flex justify-center flex-col gap-[3rem] pt-[4.5rem]">
           <div className="flex justify-center flex-col">
             <h1 className="text-center text-[40px] md:text-[42px] lg:text-[48px] leading-[106%] font-extrabold from-mild to-dark bg-gradient-to-b bg-clip-text text-transparent">
               Crafting Exceptional&nbsp;
@@ -16,12 +16,12 @@ export const TailoredSection = () => {
               </span>
               Tailored to Your Vision.
             </h1>
-            <h2 className="text-center mt-7 text-[20px] leading-[27px] text-secondary max-w-[1070px] mx-auto">
+            <h2 className="text-center mt-[1rem] text-[20px] leading-[27px] text-secondary max-w-[1070px] mx-auto">
               From design to deployment, we create websites that are visually
               stunning, highly functional, and customized to your unique
               requirements.
             </h2>
-            <div className="mt-6 md:mt-8 lg:mt-10 flex mx-auto gap-5">
+            <div className="mt-[2.5rem] flex mx-auto gap-5">
               <Link href="https://dashboard.grownext.app/register">
                 <Button>Start For Free</Button>
               </Link>

@@ -10,6 +10,7 @@ const config: Config = {
         border: "var(--border-color)",
         "mild-dark": "var(--mild-dark)",
         secondary: "var(--secondary-color)",
+        header: "var(--header-color)",
         "secondary-dark": "var(--secondary-dark)",
         paragraph: "var(--paragraph-color)",
         dark: "var(--dark-color)",

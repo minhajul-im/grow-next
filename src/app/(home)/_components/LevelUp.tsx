@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const LevelUpSection = () => {
   return (
-    <section className="bg-custom-gradient">
+    <section className="bg-custom-gradient py-[4.5rem]">
       <div className="flex flex-col">
         <h1 className="text-center text-[40px] md:text-[42px] lg:text-[48px] leading-[104%] font-extrabold from-mild to-dark bg-gradient-to-b bg-clip-text text-transparent">
           Level up your&nbsp;
@@ -12,7 +12,7 @@ export const LevelUpSection = () => {
           </span>
           of work
         </h1>
-        <h2 className="px-[50px] text-center mt-4 text-[20px] leading-[27px] text-secondary max-w-[1070px] mx-auto">
+        <h2 className="px-[50px] text-center mt-[1rem] text-[20px] leading-[27px] text-secondary max-w-[1070px] mx-auto">
           Lorem ipsum dolor sit amet consectetur. Rhoncus porttitor velit
           bibendum rutrum pharetra semper. Cursus nunc ultrices nulla dapibus
           purus semper penatibus sit quis. Morbi amet gravida scelerisque proin
@@ -64,7 +64,7 @@ export const LevelUpSection = () => {
           </button>
         </div>
       </div>
-      <div className="mt-[30px] flex">
+      <div className="mt-[3rem] flex">
         <div className="text-lg mx-auto leading-[120%] font-medium relative text-mild-dark">
           Click To Play The Video
           <Image

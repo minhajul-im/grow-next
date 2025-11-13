@@ -11,6 +11,7 @@
   --primary-color: #111111;
   --light-color: #ffffff;
   --light-dark: #ebeced;
+  --header-color: #fffffff7;
   --secondary-color: #666666;
   --mild-color: #555555;
   --mild-dark: #797979;
@@ -52,6 +53,10 @@
 
   .line-gradient {
     background: linear-gradient(152deg, #555555 0%, #000000 100%);
+  }
+
+  .radial-cross {
+    background: radial-gradient(50% 50% at 50% 50%, #0d0c0a 0%, #ffffff 100%);
   }
 }
 

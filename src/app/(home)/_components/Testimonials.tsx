@@ -32,7 +32,7 @@ export const TestimonialsSection = () => {
 
   return (
     <ContentLayout>
-      <div className="flex gap-[50px] flex-col">
+      <div className="flex gap-[3rem] flex-col">
         <div>
           <h1 className="text-center text-[40px] md:text-[42px] lg:text-[48px] leading-[104%] font-extrabold from-mild to-dark bg-gradient-to-b bg-clip-text text-transparent">
             How Agencies Grow With&nbsp;
@@ -40,7 +40,7 @@ export const TestimonialsSection = () => {
               GrowNext
             </span>
           </h1>
-          <h2 className="text-center mt-4 text-[20px] leading-[27px] text-secondary max-w-[1070px] mx-auto">
+          <h2 className="text-center mt-[1rem] text-[20px] leading-[27px] text-secondary max-w-[1070px] mx-auto">
             Lorem ipsum dolor sit amet consectetur. Rhoncus porttitor velit
             bibendum rutrum pharetra semper. Cursus nunc ultrices nulla dapibus
             purus semper penatibus sit quis. Morbi amet gravida scelerisque
