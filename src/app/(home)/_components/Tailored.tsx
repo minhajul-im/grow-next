@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export const TailoredSection = () => {
   return (
-    <section className="bg-custom-gradient -z-50">
+    <section className="bg-custom-gradient">
       <ContentLayout>
         <div className="flex justify-center flex-col gap-[35px] pt-8">
           <div className="flex justify-center flex-col">
@@ -22,9 +22,10 @@ export const TailoredSection = () => {
               requirements.
             </h2>
             <div className="mt-6 md:mt-8 lg:mt-10 flex mx-auto gap-5">
-              <Link href="/pricing">
+              <Link href="https://dashboard.grownext.app/register">
                 <Button>Start For Free</Button>
               </Link>
+
               <button className="rounded-[32px] px-[1.5rem] py-[0.75rem] border border-primary">
                 Schedule a Demo
               </button>

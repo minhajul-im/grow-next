@@ -32,7 +32,7 @@ export const Footer = () => {
   return (
     <ContentLayout>
       <Divider />
-      <div className="mt-2.5 mb-14">
+      <div className="my-[3rem]">
         <div className="flex justify-between flex-col lg:flex-row">
           <div className="rounded-[19px] p-5 flex gap-[22px] flex-col bg-gradient-to-b from-border to-light w-full lg:w-[465px] relative">
             <Image
@@ -201,7 +201,7 @@ const Section = ({
 
 const Divider = () => {
   return (
-    <div className="flex items-center my-5 md:my-6 lg:my-[50px]">
+    <div className="flex items-center my-[3rem]">
       <div className="h-[1px] w-full flex-1 bg-gradient-to-l from-dark to-light"></div>
       <div className="flex gap-[13px] items-center">
         <div className="w-2.5 h-2.5 rounded-full bg-dot-gradient" />
