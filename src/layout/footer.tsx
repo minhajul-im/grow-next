@@ -51,7 +51,7 @@ export const Footer = () => {
               advertising-based business models. The only way we make money is
               from the software license fees you pay us.
             </div>
-            <button className="bg-gradient-to-b from-secondary to-primary gap-2.5 px-[16px] py-[8px] rounded-[32px] flex mr-auto items-center z-10">
+            <button className="bg-gradient-to-b from-secondary to-primary gap-2.5 px-[16px] py-[8px] rounded-default flex mr-auto items-center z-10">
               <Image src="/assets/playbtn.png" alt=">" width={20} height={20} />
               <div className="font-medium text-light">Watch Video</div>
             </button>
