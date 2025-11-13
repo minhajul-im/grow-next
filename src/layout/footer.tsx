@@ -31,6 +31,7 @@ export const Footer = () => {
 
   return (
     <ContentLayout>
+      <Divider />
       <div className="mt-2.5 mb-14">
         <div className="flex justify-between flex-col lg:flex-row">
           <div className="rounded-[19px] p-5 flex gap-[22px] flex-col bg-gradient-to-b from-[#E9EBED] to-white w-full lg:w-[465px] relative">
@@ -194,6 +195,46 @@ const Section = ({
           </Link>
         ))}
       </div>
+    </div>
+  );
+};
+
+export const Divider = () => {
+  return (
+    <div className="flex items-center my-5 md:my-6 lg:my-[50px]">
+      <div className="h-[1px] w-full flex-1 bg-gradient-to-l from-dark to-light"></div>
+      <div className="flex gap-[13px] items-center">
+        <div
+          className="w-2.5 h-2.5 rounded-full"
+          style={{
+            background:
+              "linear-gradient(137.79deg, #555555 15%, #000000 83.5%)",
+          }}></div>
+        {/* <div className="flex gap-[5px]">
+          <div className="w-[30px] h-[30px]">
+            <Image src="/assets/star.png" alt="*" width={60} height={60} />
+          </div>
+          <div className="w-[30px] h-[30px]">
+            <Image src="/assets/star.png" alt="*" width={60} height={60} />
+          </div>
+          <div className="w-[30px] h-[30px]">
+            <Image src="/assets/star.png" alt="*" width={60} height={60} />
+          </div>
+          <div className="w-[30px] h-[30px]">
+            <Image src="/assets/star.png" alt="*" width={60} height={60} />
+          </div>
+          <div className="w-[30px] h-[30px]">
+            <Image src="/assets/star.png" alt="*" width={60} height={60} />
+          </div>
+        </div> */}
+        <div
+          className="w-2.5 h-2.5 rounded-full"
+          style={{
+            background:
+              "linear-gradient(137.79deg, #555555 15%, #000000 83.5%)",
+          }}></div>
+      </div>
+      <div className="h-[1px] w-full flex-1 bg-gradient-to-r from-dark to-light"></div>
     </div>
   );
 };

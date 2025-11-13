@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-export const Divider = () => {
+export const DividerSection = () => {
   return (
     <div className="w-[95%] xl:w-[1100px] 2xl:w-[1170px] mx-auto relative">
       <div className="flex items-center my-5 md:my-6 lg:my-[50px]">
