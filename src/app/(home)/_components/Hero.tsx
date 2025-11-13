@@ -1,5 +1,7 @@
 import { ContentLayout } from "@/components/common/common";
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 export const HeroSection = () => {
   return (
@@ -28,9 +30,9 @@ export const HeroSection = () => {
           </h2>
 
           <div className="flex gap-5 mt-5 lg:mt-0 justify-center lg:justify-start">
-            <button className="rounded-[32px] px-[1.5rem] py-[0.75rem] bg-gradient-to-b from-secondary to-primary text-light">
-              Start For Free
-            </button>
+            <Link href="https://dashboard.grownext.app/register">
+              <Button>Start For Free</Button>
+            </Link>
             <button className="rounded-[32px] px-[1.5rem] py-[0.75rem] border border-primary">
               Schedule a Demo
             </button>

@@ -38,7 +38,7 @@ export const LevelUpSection = () => {
             className="grayscale"
           />
         </div>
-        <div className="relative z-10 mt-[50px] flex justify-center w-[80%] lg:w-[970px] h-[300px] lg:h-[560px] mx-auto rounded-[20px] bg-light shadow-[0px_10px_25px_-3px_#00000026] overflow-hidden">
+        <div className="relative z-10 mt-[50px] flex justify-center w-[80%] lg:w-[970px] h-[300px] lg:h-[560px] mx-auto rounded-default bg-light shadow-[0px_10px_25px_-3px_#00000026] overflow-hidden">
           <Image
             src="/assets/levelupback.svg"
             alt="back"

@@ -52,7 +52,7 @@ export const TestimonialsSection = () => {
             className="flex -mr-[30px] mb-[90px] duration-500 ease-in-out"
             ref={sliderRef}>
             <div className="min-w-[100%] lg:min-w-[25%] pr-[30px]">
-              <div className="rounded-[20px] bg-gradient-to-b from-border to-light pb-[84px] relative pt-[25px] px-[17px] flex flex-col gap-[30px]">
+              <div className="rounded-default bg-gradient-to-b from-border to-light pb-[84px] relative pt-[25px] px-[17px] flex flex-col gap-[30px]">
                 <Image
                   src="/assets/test-logo1.svg"
                   alt="logo"
@@ -83,7 +83,7 @@ export const TestimonialsSection = () => {
               </div>
             </div>
             <div className="min-w-[100%] lg:min-w-[25%] pr-[30px]">
-              <div className="rounded-[20px] bg-gradient-to-b from-border to-light pb-[84px] relative pt-[25px] px-[17px] flex flex-col gap-[30px]">
+              <div className="rounded-default bg-gradient-to-b from-border to-light pb-[84px] relative pt-[25px] px-[17px] flex flex-col gap-[30px]">
                 <Image
                   src="/assets/test-logo2.svg"
                   alt="logo"
@@ -114,7 +114,7 @@ export const TestimonialsSection = () => {
               </div>
             </div>
             <div className="min-w-[100%] lg:min-w-[25%] pr-[30px]">
-              <div className="rounded-[20px] bg-gradient-to-b from-border to-light pb-[84px] relative pt-[25px] px-[17px] flex flex-col gap-[30px]">
+              <div className="rounded-default bg-gradient-to-b from-border to-light pb-[84px] relative pt-[25px] px-[17px] flex flex-col gap-[30px]">
                 <Image
                   src="/assets/test-logo3.svg"
                   alt="logo"
@@ -145,7 +145,7 @@ export const TestimonialsSection = () => {
               </div>
             </div>
             <div className="min-w-[100%] lg:min-w-[25%] pr-[30px]">
-              <div className="rounded-[20px] bg-gradient-to-b from-border to-light pb-[84px] relative pt-[25px] px-[17px] flex flex-col gap-[30px]">
+              <div className="rounded-default bg-gradient-to-b from-border to-light pb-[84px] relative pt-[25px] px-[17px] flex flex-col gap-[30px]">
                 <Image
                   src="/assets/test-logo4.svg"
                   alt="logo"
@@ -176,7 +176,7 @@ export const TestimonialsSection = () => {
               </div>
             </div>
             <div className="min-w-[100%] lg:min-w-[25%] pr-[30px]">
-              <div className="rounded-[20px] bg-gradient-to-b from-border to-light pb-[84px] relative pt-[25px] px-[17px] flex flex-col gap-[30px]">
+              <div className="rounded-default bg-gradient-to-b from-border to-light pb-[84px] relative pt-[25px] px-[17px] flex flex-col gap-[30px]">
                 <Image
                   src="/assets/test-logo1.svg"
                   alt="logo"
@@ -207,7 +207,7 @@ export const TestimonialsSection = () => {
               </div>
             </div>
             <div className="min-w-[100%] lg:min-w-[25%] pr-[30px]">
-              <div className="rounded-[20px] bg-gradient-to-b from-border to-light pb-[84px] relative pt-[25px] px-[17px] flex flex-col gap-[30px]">
+              <div className="rounded-default bg-gradient-to-b from-border to-light pb-[84px] relative pt-[25px] px-[17px] flex flex-col gap-[30px]">
                 <Image
                   src="/assets/test-logo2.svg"
                   alt="logo"
@@ -238,7 +238,7 @@ export const TestimonialsSection = () => {
               </div>
             </div>
             <div className="min-w-[100%] lg:min-w-[25%] pr-[30px]">
-              <div className="rounded-[20px] bg-gradient-to-b from-border to-light pb-[84px] relative pt-[25px] px-[17px] flex flex-col gap-[30px]">
+              <div className="rounded-default bg-gradient-to-b from-border to-light pb-[84px] relative pt-[25px] px-[17px] flex flex-col gap-[30px]">
                 <Image
                   src="/assets/test-logo3.svg"
                   alt="logo"
@@ -269,7 +269,7 @@ export const TestimonialsSection = () => {
               </div>
             </div>
             <div className="min-w-[100%] lg:min-w-[25%] pr-[30px]">
-              <div className="rounded-[20px] bg-gradient-to-b from-border to-light pb-[84px] relative pt-[25px] px-[17px] flex flex-col gap-[30px]">
+              <div className="rounded-default bg-gradient-to-b from-border to-light pb-[84px] relative pt-[25px] px-[17px] flex flex-col gap-[30px]">
                 <Image
                   src="/assets/test-logo4.svg"
                   alt="logo"

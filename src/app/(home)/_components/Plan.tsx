@@ -18,7 +18,7 @@ export const PlanSection = () => {
       </h2>
 
       <div className="mt-[50px] flex gap-4 sm:gap-10 flex-col lg:flex-row px-0">
-        <div className="flex-1 rounded-[20px] p-5 flex flex-col bg-gradient-to-b from-border to-light">
+        <div className="flex-1 rounded-default p-5 flex flex-col bg-gradient-to-b from-border to-light">
           <h3 className="text-[30px] font-bold leading-[120%]">
             Others Tools Price
           </h3>
@@ -134,7 +134,7 @@ export const PlanSection = () => {
               </div>
             </div>
           </div>
-          <button className="rounded-[16px] p-5 text-light mt-4 line-gradient">
+          <button className="rounded-default p-5 text-light mt-4 line-gradient">
             <div className="flex gap-3 flex-col text-left">
               <div className="leading-[120%] text-[30px]">$511.9 per month</div>
               <div className="leading-[120%]">
@@ -150,7 +150,7 @@ export const PlanSection = () => {
           <div className="absolute w-0.5 h-full left-[50%] translate-x-[50%] -z-50 line-gradient" />
           <div className="absolute h-0.5 w-full top-[50%] translate-y-[50%] -z-50 line-gradient" />
         </div>
-        <div className="flex-1 rounded-[20px] p-5 flex flex-col mb-auto line-gradient">
+        <div className="flex-1 rounded-default p-5 flex flex-col mb-auto line-gradient">
           <h3 className="text-[30px] font-bold leading-[120%] text-light">
             GrowNext&nbsp;Professional Plan
           </h3>
@@ -250,7 +250,7 @@ export const PlanSection = () => {
               </div>
             </div>
           </div>
-          <div className="rounded-[16px] py-5 px-[30px] text-dark bg-light mt-[22px] nav-center flex-col md:flex-row">
+          <div className="rounded-default py-5 px-[30px] text-dark bg-light mt-[22px] nav-center flex-col md:flex-row">
             <div className="flex gap-3 flex-col text-left">
               <div className="leading-[120%] text-[26px] font-semibold">
                 $240 per month

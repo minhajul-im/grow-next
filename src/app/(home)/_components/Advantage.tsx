@@ -4,7 +4,7 @@ import Image from "next/image";
 export const AdvantageSection = () => {
   return (
     <ContentLayout>
-      <div className="px-[20px] lg:px-[60px] py-[30px] mt-8 lg:mt-[70px] shadow-[0px_10px_25px_-3px_#00000026] rounded-[20px]">
+      <div className="px-[20px] lg:px-[60px] py-[30px] mt-8 lg:mt-[70px] shadow-[0px_10px_25px_-3px_#00000026] rounded-default">
         <div className="text-center">
           <h1 className="text-[40px] md:text-[42px] lg:text-[48px] leading-[104%] font-extrabold from-mild to-dark bg-gradient-to-b bg-clip-text text-transparent">
             Why Choose &nbsp;
@@ -21,7 +21,7 @@ export const AdvantageSection = () => {
           </h2>
         </div>
         <div className="mt-[50px] gap-[50px] grid lg:grid-cols-2 grid-cols-1">
-          <div className="bg-gradient-to-b from-light-dark to-light rounded-[20px] p-[30px] flex flex-col">
+          <div className="bg-gradient-to-b from-light-dark to-light rounded-default p-[30px] flex flex-col">
             <h3 className="text-[30px] leading-[36px] font-bold from-mild to-dark bg-gradient-to-b bg-clip-text text-transparent">
               Without GrowNext ERP
             </h3>
@@ -40,8 +40,8 @@ export const AdvantageSection = () => {
             </div>
           </div>
           <div
-            className="bg-light rounded-[20px] p-[2px] flex flex-col bg-clip-content relative border-transparent shadow-[0px_10px_25px_-3px_#00000026]
-                    before:content-[''] before:absolute before:top-0 before:left-0 before:bg-gradient-to-b before:from-dark before:to-light before:w-full before:h-full before:-z-10 before:rounded-[20px]">
+            className="bg-light rounded-default p-[2px] flex flex-col bg-clip-content relative border-transparent shadow-[0px_10px_25px_-3px_#00000026]
+                    before:content-[''] before:absolute before:top-0 before:left-0 before:bg-gradient-to-b before:from-dark before:to-light before:w-full before:h-full before:-z-10 before:rounded-default">
             <div className="p-[28px]">
               <h3 className="text-[30px] leading-[36px] font-bold from-mild to-dark bg-gradient-to-b bg-clip-text text-transparent">
                 With GrowNext ERP

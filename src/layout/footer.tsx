@@ -34,7 +34,7 @@ export const Footer = () => {
       <Divider />
       <div className="my-[3rem]">
         <div className="flex justify-between flex-col lg:flex-row">
-          <div className="rounded-[19px] p-5 flex gap-[22px] flex-col bg-gradient-to-b from-border to-light w-full lg:w-[465px] relative">
+          <div className="rounded-default p-5 flex gap-[22px] flex-col bg-gradient-to-b from-border to-light w-full lg:w-[465px] relative">
             <Image
               src="/assets/contact-database.svg"
               alt="database"
