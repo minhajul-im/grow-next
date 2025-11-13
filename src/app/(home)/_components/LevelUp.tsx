@@ -26,7 +26,7 @@ export const LevelUpSection = () => {
             alt="+++"
             width={656}
             height={354}
-            style={{ filter: "grayscale(1)" }}
+            className="grayscale"
           />
         </div>
         <div className="absolute -translate-y-[50%] right-0 top-[50%] ">
@@ -35,7 +35,7 @@ export const LevelUpSection = () => {
             alt="+++"
             width={656}
             height={354}
-            style={{ filter: "grayscale(1)" }}
+            className="grayscale"
           />
         </div>
         <div className="relative z-10 mt-[50px] flex justify-center w-[80%] lg:w-[970px] h-[300px] lg:h-[560px] mx-auto rounded-[20px] bg-light shadow-[0px_10px_25px_-3px_#00000026] overflow-hidden">

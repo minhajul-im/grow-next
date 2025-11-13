@@ -45,6 +45,14 @@
       #ffffff 98%
     );
   }
+
+  .bg-dot-gradient {
+    background: linear-gradient(138deg, #555555 15%, #000000 83.5%);
+  }
+
+  .line-gradient {
+    background: linear-gradient(152deg, #555555 0%, #000000 100%);
+  }
 }
 
 /* @media (prefers-color-scheme: dark) {

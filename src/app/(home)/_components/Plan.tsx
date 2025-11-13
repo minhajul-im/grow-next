@@ -134,11 +134,7 @@ export const PlanSection = () => {
               </div>
             </div>
           </div>
-          <button
-            className="rounded-[16px] p-5 text-light mt-4"
-            style={{
-              background: "linear-gradient(151.6deg, #555555 0%, #000000 100%)",
-            }}>
+          <button className="rounded-[16px] p-5 text-light mt-4 line-gradient">
             <div className="flex gap-3 flex-col text-left">
               <div className="leading-[120%] text-[30px]">$511.9 per month</div>
               <div className="leading-[120%]">
@@ -151,24 +147,10 @@ export const PlanSection = () => {
           <div className="rounded-full p-4 text-[24px] sm:text-[30px] font-bold leading-[36px] shadow-lg m-auto bg-light">
             VS
           </div>
-          <div
-            className="absolute w-0.5 h-full left-[50%] translate-x-[50%] -z-50"
-            style={{
-              background:
-                "radial-gradient(50% 50% at 50% 50%, #0D0C0A 0%, #FFFFFF 100%)",
-            }}></div>
-          <div
-            className="absolute h-0.5 w-full top-[50%] translate-y-[50%] -z-50"
-            style={{
-              background:
-                "radial-gradient(50% 50% at 50% 50%, #0D0C0A 0%, #FFFFFF 100%)",
-            }}></div>
+          <div className="absolute w-0.5 h-full left-[50%] translate-x-[50%] -z-50 line-gradient" />
+          <div className="absolute h-0.5 w-full top-[50%] translate-y-[50%] -z-50 line-gradient" />
         </div>
-        <div
-          className="flex-1 rounded-[20px] p-5 flex flex-col mb-auto"
-          style={{
-            background: "linear-gradient(151.6deg, #555555 0%, #000000 100%)",
-          }}>
+        <div className="flex-1 rounded-[20px] p-5 flex flex-col mb-auto line-gradient">
           <h3 className="text-[30px] font-bold leading-[120%] text-light">
             GrowNext&nbsp;Professional Plan
           </h3>
