@@ -12,8 +12,8 @@ import { TailoredSection } from "./_components/Tailored";
 export default function HomePage() {
   return (
     <BaseLayout>
+      <HeroSection />
       <section className="flex flex-col gap-y-[4.5rem]">
-        <HeroSection />
         <FeaturesSection />
         <AdvantageSection />
         <LevelUpSection />

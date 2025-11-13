@@ -44,7 +44,7 @@ export const HeroSection = () => {
             alt="#"
             width={760}
             height={626}
-            className="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] z-[9999]"
+            className="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]"
           />
         </div>
         {/* <div className="w-[80px] h-[81px] lg:w-[216px] lg:h-[218px] absolute -bottom-2 lg:-bottom-0 right-20 lg:right-56 translate-x-[100%]">

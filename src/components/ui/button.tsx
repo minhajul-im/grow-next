@@ -16,7 +16,7 @@ export const Button = ({
     sm: "text-lg leading-[120%] px-[1rem] py-[0.5rem] rounded-default text-light bg-gradient-to-b from-mild to-dark",
     explore:
       "mt-6 lg:mt-[66px] mx-auto rounded-default bg-gradient-to-b from-secondary to-primary text-light py-[0.5rem] px-[1rem]",
-    outline: "rounded-default px-[1.5rem] py-[0.69rem] border border-primary",
+    outline: "rounded-default px-[1.5rem] py-[0.70rem] border border-primary",
   };
 
   const allStyles = `${styles[size || "default"]} ${className}`;
