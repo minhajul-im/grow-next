@@ -1,9 +1,13 @@
+"use client";
+
 import { ContentLayout } from "@/components/common/common";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 
 export const TailoredSection = () => {
+  const [imageLoaded, setImageLoaded] = useState(false);
   return (
     <section className="bg-custom-gradient">
       <ContentLayout>
@@ -31,15 +35,18 @@ export const TailoredSection = () => {
               </Link>
             </div>
           </div>
-          <div className="mx-auto">
-            <Image
-              src="/tailored.svg"
-              width={700}
-              height={300}
-              alt="#"
-              className="max-w-[700px] w-full"
-            />
-          </div>
+
+          <Image
+            src="/tailored.svg"
+            width={700}
+            height={300}
+            alt="#"
+            onLoad={() => setImageLoaded(true)}
+            priority
+            className={`max-w-[700px] w-full mx-auto transition-opacity duration-500 ease-in-out ${
+              imageLoaded ? "opacity-100" : "opacity-0"
+            }`}
+          />
         </div>
       </ContentLayout>
     </section>

@@ -30,6 +30,7 @@ export const PlanSection = () => {
                 alt="project"
                 width={45}
                 height={45}
+                priority
               />
               <div className="flex flex-col gap-1">
                 <h4 className="text-[20px] leading-[120%] text-dark-foreground">
@@ -46,6 +47,7 @@ export const PlanSection = () => {
                 alt="project"
                 width={45}
                 height={45}
+                priority
               />
               <div className="flex flex-col gap-1">
                 <h4 className="text-[20px] leading-[120%] text-dark-foreground">
@@ -62,6 +64,7 @@ export const PlanSection = () => {
                 alt="project"
                 width={45}
                 height={45}
+                priority
               />
               <div className="flex flex-col gap-1">
                 <h4 className="text-[20px] leading-[120%] text-dark-foreground">
@@ -78,6 +81,7 @@ export const PlanSection = () => {
                 alt="project"
                 width={45}
                 height={45}
+                priority
               />
               <div className="flex flex-col gap-1">
                 <h4 className="text-[20px] leading-[120%] text-dark-foreground">
@@ -94,6 +98,7 @@ export const PlanSection = () => {
                 alt="project"
                 width={45}
                 height={45}
+                priority
               />
               <div className="flex flex-col gap-1">
                 <h4 className="text-[20px] leading-[120%] text-dark-foreground">
@@ -110,6 +115,7 @@ export const PlanSection = () => {
                 alt="project"
                 width={45}
                 height={45}
+                priority
               />
               <div className="flex flex-col gap-1">
                 <h4 className="text-[20px] leading-[120%] text-dark-foreground">
@@ -124,6 +130,7 @@ export const PlanSection = () => {
                 alt="project"
                 width={45}
                 height={45}
+                priority
               />
               <div className="flex flex-col gap-1">
                 <h4 className="text-[20px] leading-[120%] text-dark-foreground">
@@ -162,6 +169,7 @@ export const PlanSection = () => {
                 alt="project"
                 width={45}
                 height={45}
+                priority
               />
               <div className="flex flex-col gap-1">
                 <h4 className="text-[20px] leading-[120%]">
@@ -175,6 +183,7 @@ export const PlanSection = () => {
                 alt="project"
                 width={45}
                 height={45}
+                priority
               />
               <div className="flex flex-col gap-1">
                 <h4 className="text-[20px] leading-[120%]">Time Tracking</h4>
@@ -186,6 +195,7 @@ export const PlanSection = () => {
                 alt="project"
                 width={45}
                 height={45}
+                priority
               />
               <div className="flex flex-col gap-1">
                 <h4 className="text-[20px] leading-[120%]">
@@ -199,6 +209,7 @@ export const PlanSection = () => {
                 alt="project"
                 width={45}
                 height={45}
+                priority
               />
               <div className="flex flex-col gap-1">
                 <h4 className="text-[20px] leading-[120%]">
@@ -212,6 +223,7 @@ export const PlanSection = () => {
                 alt="project"
                 width={45}
                 height={45}
+                priority
               />
               <div className="flex flex-col gap-1">
                 <h4 className="text-[20px] leading-[120%]">Sales CRM</h4>
@@ -223,6 +235,7 @@ export const PlanSection = () => {
                 alt="project"
                 width={45}
                 height={45}
+                priority
               />
               <div className="flex flex-col gap-1">
                 <h4 className="text-[20px] leading-[120%]">Financials</h4>
@@ -234,6 +247,7 @@ export const PlanSection = () => {
                 alt="project"
                 width={45}
                 height={45}
+                priority
               />
               <div className="flex flex-col gap-1">
                 <h4 className="text-[20px] leading-[120%]">Docs</h4>
@@ -245,6 +259,7 @@ export const PlanSection = () => {
                 alt="project"
                 width={45}
                 height={45}
+                priority
               />
               <div className="flex flex-col gap-1">
                 <h4 className="text-[20px] leading-[120%]">Reporting</h4>

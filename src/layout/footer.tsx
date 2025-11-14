@@ -65,6 +65,7 @@ export const Footer = () => {
               alt="database"
               width={144}
               height={144}
+              priority
               className="absolute left-[50%] top-[50%] -translate-x-[50%] -translate-y-[50%]"
             />
             <div className="text-primary text-[20px] leading-[120%] font-bold uppercase z-10">
@@ -77,7 +78,13 @@ export const Footer = () => {
               from the software license fees you pay us.
             </div>
             <button className="bg-gradient-to-b from-secondary to-primary gap-2.5 px-[16px] py-[8px] rounded-default flex mr-auto items-center z-10">
-              <Image src="/assets/playbtn.png" alt=">" width={20} height={20} />
+              <Image
+                src="/assets/playbtn.png"
+                alt=">"
+                width={20}
+                height={20}
+                priority
+              />
               <div className="font-medium text-light">Watch Video</div>
             </button>
           </div>
@@ -96,12 +103,19 @@ export const Footer = () => {
                   alt="Li"
                   width={15}
                   height={15}
+                  priority
                 />
               </a>
               <a
                 href=""
                 className="rounded-default bg-light-dark w-[30px] h-[30px] full-center">
-                <Image src="/assets/X.png" alt="Li" width={15} height={15} />
+                <Image
+                  src="/assets/X.png"
+                  alt="Li"
+                  width={15}
+                  height={15}
+                  priority
+                />
               </a>
               <a
                 href=""
@@ -111,6 +125,7 @@ export const Footer = () => {
                   alt="Li"
                   width={15}
                   height={15}
+                  priority
                 />
               </a>
               <a
@@ -121,6 +136,7 @@ export const Footer = () => {
                   alt="Li"
                   width={15}
                   height={15}
+                  priority
                 />
               </a>
               <a
@@ -131,6 +147,7 @@ export const Footer = () => {
                   alt="Li"
                   width={15}
                   height={15}
+                  priority
                 />
               </a>
             </div>
@@ -144,6 +161,7 @@ export const Footer = () => {
                 alt="GooglePlay"
                 width={175}
                 height={60}
+                priority
                 className="w-auto h-[30px] aspect-auto"
               />
             </button>
@@ -153,6 +171,7 @@ export const Footer = () => {
                 alt="AppStore"
                 width={175}
                 height={60}
+                priority
                 className="w-auto h-[30px] aspect-auto"
               />
             </button>
@@ -162,6 +181,7 @@ export const Footer = () => {
                 alt="Microsoft"
                 width={175}
                 height={60}
+                priority
                 className="w-auto h-[30px] aspect-auto"
               />
             </button>
@@ -171,6 +191,7 @@ export const Footer = () => {
                 alt="MacApp"
                 width={175}
                 height={60}
+                priority
                 className="w-auto h-[30px] aspect-auto"
               />
             </button>
@@ -180,6 +201,7 @@ export const Footer = () => {
                 alt="Linux"
                 width={175}
                 height={60}
+                priority
                 className="w-auto h-[30px] aspect-auto"
               />
             </button>
@@ -196,7 +218,13 @@ export const Footer = () => {
         <button
           onClick={handleScrollToTop}
           className="absolute bottom-16 w-[50px] h-[50px] -right-10 translate-x-[100%] bg-gradient-to-b from-mild to-dark shadow-[0px_10px_25px_-3px_#00000026] rounded-full flex justify-center items-end">
-          <Image src="/assets/uparrow.png" alt="↑" width={20} height={35} />
+          <Image
+            src="/assets/uparrow.png"
+            alt="↑"
+            width={20}
+            height={35}
+            priority
+          />
         </button>
       )}
     </ContentLayout>

@@ -26,6 +26,7 @@ export const LevelUpSection = () => {
             alt="+++"
             width={656}
             height={354}
+            priority
             className="grayscale"
           />
         </div>
@@ -35,6 +36,7 @@ export const LevelUpSection = () => {
             alt="+++"
             width={656}
             height={354}
+            priority
             className="grayscale"
           />
         </div>
@@ -44,6 +46,7 @@ export const LevelUpSection = () => {
             alt="back"
             width={814}
             height={322}
+            priority
             className="absolute -translate-x-[50%] -translate-y-[50%] left-[50%] top-[50%] hidden lg:block "
           />
           <Image
@@ -51,6 +54,7 @@ export const LevelUpSection = () => {
             alt="play"
             width={409}
             height={162}
+            priority
             className="absolute -translate-x-[50%] -translate-y-[50%] left-[50%] top-[50%] w-[80%] lg:w-full"
           />
           <button className="absolute left-[50%] -translate-x-[50%] bottom-[40px] z-20">
@@ -59,6 +63,7 @@ export const LevelUpSection = () => {
               alt="Play"
               width={70}
               height={70}
+              priority
               className="z-10"
             />
           </button>
@@ -73,6 +78,7 @@ export const LevelUpSection = () => {
             width={79}
             height={133}
             className="absolute bottom-2 right-0 translate-x-[60%] z-20"
+            priority
           />
         </div>
       </div>

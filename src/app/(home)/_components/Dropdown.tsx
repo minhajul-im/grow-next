@@ -32,6 +32,7 @@ export const FeatureDropdown = ({
               alt="union"
               width={20}
               height={20}
+              priority
             />
             <div className="text-[20px] font-semibold">Collaboration</div>
           </div>
@@ -66,6 +67,7 @@ export const FeatureDropdown = ({
               alt="union"
               width={20}
               height={20}
+              priority
             />
             <div className="text-[20px] font-semibold">Task & Projects</div>
           </div>
@@ -100,6 +102,7 @@ export const FeatureDropdown = ({
               alt="union"
               width={20}
               height={20}
+              priority
             />
             <div className="text-[20px] font-semibold">Sites & Stores</div>
           </div>
@@ -129,7 +132,13 @@ export const FeatureDropdown = ({
           className="border-t border-border ps-2.5 py-3 pe-3 nav-center w-full"
           onClick={() => toggleSubmenu(4)}>
           <div className="flex gap-2 items-center">
-            <Image src="../assets/hr.svg" alt="union" width={20} height={20} />
+            <Image
+              src="../assets/hr.svg"
+              alt="union"
+              width={20}
+              height={20}
+              priority
+            />
             <div className="text-[20px] font-semibold">HR & Automation</div>
           </div>
           <div className="w-[18px] h-[18px] d-flex">
@@ -158,7 +167,13 @@ export const FeatureDropdown = ({
           className="border-t border-border ps-2.5 py-3 pe-3 nav-center w-full"
           onClick={() => toggleSubmenu(5)}>
           <div className="flex gap-2 items-center">
-            <Image src="../assets/cms.svg" alt="union" width={20} height={20} />
+            <Image
+              src="../assets/cms.svg"
+              alt="union"
+              width={20}
+              height={20}
+              priority
+            />
             <div className="text-[20px] font-semibold">CMS</div>
           </div>
           <div className="w-[18px] h-[18px] d-flex">

@@ -21,6 +21,7 @@ export const SupportSection = () => {
                   alt="deco"
                   width={286}
                   height={316}
+                  priority
                   className="lg:w-[290px] w-[140px]"
                 />
               </div>
@@ -31,6 +32,7 @@ export const SupportSection = () => {
                     alt="com"
                     width={532}
                     height={350}
+                    priority
                     className="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]"
                   />
                 </div>
@@ -76,6 +78,7 @@ export const SupportSection = () => {
                   alt="deco"
                   width={286}
                   height={316}
+                  priority
                   className="lg:w-[290px] w-[140px]"
                 />
               </div>
@@ -99,6 +102,7 @@ export const SupportSection = () => {
                   alt="android"
                   width={194}
                   height={310}
+                  priority
                 />
               </div>
               <div>
@@ -107,6 +111,7 @@ export const SupportSection = () => {
                   alt="android"
                   width={194}
                   height={262}
+                  priority
                 />
               </div>
             </div>

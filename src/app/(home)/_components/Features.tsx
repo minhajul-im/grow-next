@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button";
 
 export const FeaturesSection = () => {
   const [activeMenu, setActiveMenu] = useState(1);
+  const [imageLoaded, setImageLoaded] = useState(false);
 
   return (
     <section className="bg-custom-gradient pt-[4.5rem]">
@@ -30,23 +31,45 @@ export const FeaturesSection = () => {
               <FeatureDropdown submenu={activeMenu} onChange={setActiveMenu} />
             </div>
             <div className="flex mx-auto relative -mb-4 order-0 lg:order-2">
+              {/* Skeleton */}
+              {!imageLoaded && (
+                <div className="max-w-[676px] w-full h-[400px] md:h-[440px] bg-gray-200 animate-pulse rounded-xl mx-auto" />
+              )}
+
+              {/* Main Image */}
               <Image
                 src="/assets/feature_com.png"
                 alt="Our Features"
                 width={1450}
                 height={940}
-                className="max-w-[676px] w-full mx-auto z-10"
+                className={`max-w-[676px] w-full mx-auto z-10 transition-opacity duration-500 ease-in-out ${
+                  imageLoaded ? "opacity-100" : "opacity-0"
+                }`}
+                onLoad={() => setImageLoaded(true)}
+                priority
               />
-              {activeMenu == 1 && <LaptopTitle>Collaboration</LaptopTitle>}
-              {activeMenu == 2 && <LaptopTitle>Task & Projects</LaptopTitle>}
-              {activeMenu == 3 && <LaptopTitle>Sites & Stores</LaptopTitle>}
-              {activeMenu == 4 && <LaptopTitle>HR & Automation</LaptopTitle>}
-              {activeMenu == 5 && <LaptopTitle>CMS</LaptopTitle>}
+
+              {/* Titles - only when loaded */}
+              {imageLoaded && activeMenu == 1 && (
+                <LaptopTitle>Collaboration</LaptopTitle>
+              )}
+              {imageLoaded && activeMenu == 2 && (
+                <LaptopTitle>Task & Projects</LaptopTitle>
+              )}
+              {imageLoaded && activeMenu == 3 && (
+                <LaptopTitle>Sites & Stores</LaptopTitle>
+              )}
+              {imageLoaded && activeMenu == 4 && (
+                <LaptopTitle>HR & Automation</LaptopTitle>
+              )}
+              {imageLoaded && activeMenu == 5 && <LaptopTitle>CMS</LaptopTitle>}
+
               <Image
                 src="/assets/blue_polygon.png"
                 alt="#"
                 width={572}
                 height={630}
+                priority
                 className="absolute lg:w-[280px] lg:h-[280px] w-[50%] right-0 top-0 translate-x-[3%] -translate-y-[20%]"
               />
             </div>
@@ -60,6 +83,7 @@ export const FeaturesSection = () => {
                 alt="↓"
                 width={314}
                 height={219}
+                priority
                 className="w-[100px] md:w-[120px] lg:w-[150px] hidden md:block"
               />
             </div>

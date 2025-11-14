@@ -58,6 +58,7 @@ export const TestimonialsSection = () => {
                   alt="logo"
                   width={142}
                   height={30}
+                  priority
                   className="mx-auto"
                 />
                 <div className="flex items-baseline gap-2.5 mx-auto">
@@ -77,6 +78,7 @@ export const TestimonialsSection = () => {
                     alt="user1"
                     width={90}
                     height={90}
+                    priority
                     className="rounded-full"
                   />
                 </div>
@@ -89,6 +91,7 @@ export const TestimonialsSection = () => {
                   alt="logo"
                   width={165}
                   height={30}
+                  priority
                   className="mx-auto"
                 />
                 <div className="flex items-baseline gap-2.5 mx-auto">
@@ -108,6 +111,7 @@ export const TestimonialsSection = () => {
                     alt="user1"
                     width={90}
                     height={90}
+                    priority
                     className="rounded-full"
                   />
                 </div>
@@ -120,6 +124,7 @@ export const TestimonialsSection = () => {
                   alt="logo"
                   width={126}
                   height={30}
+                  priority
                   className="mx-auto"
                 />
                 <div className="flex items-baseline gap-2.5 mx-auto">
@@ -139,6 +144,7 @@ export const TestimonialsSection = () => {
                     alt="user1"
                     width={90}
                     height={90}
+                    priority
                     className="rounded-full"
                   />
                 </div>
@@ -151,6 +157,7 @@ export const TestimonialsSection = () => {
                   alt="logo"
                   width={151}
                   height={30}
+                  priority
                   className="mx-auto"
                 />
                 <div className="flex items-baseline gap-2.5 mx-auto">
@@ -170,6 +177,7 @@ export const TestimonialsSection = () => {
                     alt="user1"
                     width={90}
                     height={90}
+                    priority
                     className="rounded-full"
                   />
                 </div>
@@ -182,6 +190,7 @@ export const TestimonialsSection = () => {
                   alt="logo"
                   width={142}
                   height={30}
+                  priority
                   className="mx-auto"
                 />
                 <div className="flex items-baseline gap-2.5 mx-auto">
@@ -201,6 +210,7 @@ export const TestimonialsSection = () => {
                     alt="user1"
                     width={90}
                     height={90}
+                    priority
                     className="rounded-full"
                   />
                 </div>
@@ -213,6 +223,7 @@ export const TestimonialsSection = () => {
                   alt="logo"
                   width={165}
                   height={30}
+                  priority
                   className="mx-auto"
                 />
                 <div className="flex items-baseline gap-2.5 mx-auto">
@@ -232,6 +243,7 @@ export const TestimonialsSection = () => {
                     alt="user1"
                     width={90}
                     height={90}
+                    priority
                     className="rounded-full"
                   />
                 </div>
@@ -244,6 +256,7 @@ export const TestimonialsSection = () => {
                   alt="logo"
                   width={126}
                   height={30}
+                  priority
                   className="mx-auto"
                 />
                 <div className="flex items-baseline gap-2.5 mx-auto">
@@ -263,6 +276,7 @@ export const TestimonialsSection = () => {
                     alt="user1"
                     width={90}
                     height={90}
+                    priority
                     className="rounded-full"
                   />
                 </div>
@@ -275,6 +289,7 @@ export const TestimonialsSection = () => {
                   alt="logo"
                   width={151}
                   height={30}
+                  priority
                   className="mx-auto"
                 />
                 <div className="flex items-baseline gap-2.5 mx-auto">
@@ -294,6 +309,7 @@ export const TestimonialsSection = () => {
                     alt="user1"
                     width={90}
                     height={90}
+                    priority
                     className="rounded-full"
                   />
                 </div>

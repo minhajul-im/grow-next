@@ -68,12 +68,14 @@ export const AdvantageSection = () => {
             alt="Advantage"
             width={440}
             height={274}
+            priority
           />
           <Image
             src="/assets/reverseArrow.svg"
             alt="→"
             width={144}
             height={140}
+            priority
             className="absolute left-[70%] top-6 hidden lg:block"
           />
         </div>
@@ -91,6 +93,7 @@ const CrossTitle = ({ children }: { children: React.ReactNode }) => {
           alt="#"
           fill
           className="absolute w-full h-full object-cover"
+          priority
         />
       </div>
       <h4 className="leading-[120%] flex-1">{children}</h4>
@@ -106,6 +109,7 @@ const CorrectTitle = ({ children }: { children: React.ReactNode }) => {
           src="/assets/supported.svg"
           fill
           alt="#"
+          priority
           className="absolute w-full h-full object-cover"
         />
       </div>

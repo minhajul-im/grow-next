@@ -27,7 +27,7 @@ export const Header = () => {
   ];
 
   return (
-    <header className="fixed w-full top-[15px] z-[9999]">
+    <header className="fixed w-full top-[15px] h-[60px] z-[9999]">
       <ContentLayout
         childClass="py-2"
         className="rounded-default shadow-lg bg-header">
@@ -40,6 +40,7 @@ export const Header = () => {
                 width={175}
                 height={75}
                 className="object-contain"
+                priority
               />
             </Link>
             <div className="hidden xl:flex items-center gap-5">
@@ -109,6 +110,7 @@ export const Header = () => {
                       alt="User"
                       width={16}
                       height={18}
+                      priority
                     />
                   )}
                   {link.name}
